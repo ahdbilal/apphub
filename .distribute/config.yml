@@ -1,8 +1,8 @@
 -   branch: master
-    event: push
+    event: pull
     release:
         build: alpha
-        publish: true
+        publish: false
         prerelease: true
         draft: false
     destinations: 
