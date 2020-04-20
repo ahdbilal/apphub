@@ -8,6 +8,7 @@
     - ahbilal@microsoft.com
     - ahdbilal@gmail.com
   releases:
+  - 2
   - 1
 - name: Collaborators
   is_public: false
