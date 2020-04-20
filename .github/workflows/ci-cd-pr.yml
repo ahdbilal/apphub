@@ -248,7 +248,7 @@ jobs:
             token: ${{ secrets.GITHUB_TOKEN }}
             issue-number: ${{ steps.release-details.outputs.pull_number }} ${{ secrets.GITHUB_TOKEN }}
             body: |
-              @ahdbilal: Release **v${{ steps.release-details.outputs.version }} (${{ steps.release-details.outputs.id }})** successfully released to **${{ steps.dist_config.outputs.group }}**
+              @ahdbilal2686: Release **v${{ steps.release-details.outputs.version }} (${{ steps.release-details.outputs.id }})** successfully released to **${{ steps.dist_config.outputs.group }}**
 
               Scan the code with your device camera, or visit this [install page][1] on your device browser:
               
