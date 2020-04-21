@@ -4,14 +4,14 @@
     android:
     - ahbilal@microsoft.com
     - ahdbilal@gmail.com
+    - abilal@mit.edu
     ios:
     - ahbilal@microsoft.com
     - ahdbilal@gmail.com
+    - ahmedbilal_@hotmail.com
   releases:
   - 5
   - 4
-  - 3
-  - 2
   - 1
 - name: Collaborators
   is_public: false
