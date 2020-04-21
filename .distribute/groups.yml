@@ -24,7 +24,6 @@
   releases:
   - 5
   - 4
-  - 1
 - name: beta_external
   is_public: false
   members:
