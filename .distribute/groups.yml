@@ -65,6 +65,7 @@
     ios:
     - 'include: dogfood.csv'
   releases:
+  - 9
   - 5
 - name: public
   is_public: true
