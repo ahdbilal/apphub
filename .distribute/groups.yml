@@ -62,3 +62,12 @@
     android: []
     ios: []
   releases: []
+- name: dogfood
+  is_public: false
+  members:
+    android:
+    - 'include: dogfood.csv'
+    ios:
+    - 'include: dogfood.csv'
+  releases:
+  - 5
