@@ -1,3 +1,15 @@
+- name: alpha_external
+  is_public: false
+  members:
+    android:
+    - 10@ahdbilal.com
+    - 11@ahdbilal.com
+    - 12@ahdbilal.com
+    ios:
+    - 90@ahdbilal.com
+    - 91@ahdbilal.com
+    - 92@ahdbilal.com
+  releases: []
 - name: alpha_group
   is_public: false
   members:
@@ -13,29 +25,6 @@
   - 5
   - 4
   - 1
-- name: beta_group
-  is_public: false
-  members:
-    android:
-    - ahdbilal@github.com
-    - abilal@mit.edu
-    ios:
-    - ahbilal@microsoft.com
-    - ahmedbilal_@hotmail.com
-  releases: 
-  - 5
-- name: alpha_external
-  is_public: false
-  members:
-    android:
-    - 10@ahdbilal.com
-    - 11@ahdbilal.com
-    - 12@ahdbilal.com
-    ios:
-    - 90@ahdbilal.com
-    - 91@ahdbilal.com
-    - 92@ahdbilal.com
-  releases: []
 - name: beta_external
   is_public: false
   members:
@@ -48,10 +37,28 @@
     - 901@ahdbilal.com
     - 902@ahdbilal.com
   releases: []
+- name: beta_group
+  is_public: false
+  members:
+    android:
+    - ahdbilal@github.com
+    - abilal@mit.edu
+    ios:
+    - ahbilal@microsoft.com
+    - ahmedbilal_@hotmail.com
+  releases:
+  - 5
+- name: Collaborators
+  is_public: false
+  members:
+    android:
+    - ahbilal@microsoft.com
+    ios:
+    - ahbilal@microsoft.com
+  releases: []
 - name: public
   is_public: true
   members:
-    android:
-    ios:
-  releases: 
-  - 4
+    android: []
+    ios: []
+  releases: []
