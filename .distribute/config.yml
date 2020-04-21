@@ -12,3 +12,50 @@
             android:
         mandatory_update: false
         notify_testers: true
+ 
+-   branch: master
+    event: push
+    release:
+        build: beta
+        publish: true
+        prerelease: true
+        draft: false
+    destinations: 
+        group: beta_group
+        store:
+            ios:
+            android:
+        mandatory_update: false
+        notify_testers: true
+        
+-   branch: release
+    event: pull
+    release:
+        build: beta
+        publish: true
+        prerelease: true
+        draft: false
+    destinations: 
+        group: dogfood
+        store:
+            ios:
+            android:
+        mandatory_update: false
+        notify_testers: true
+
+-   branch: release
+    event: push
+    release:
+        build: beta
+        publish: true
+        prerelease: false
+        draft: false
+    destinations: 
+        group:
+        store:
+            ios: App Store Connect Users
+            android: Alpha
+        mandatory_update: false
+        notify_testers: true
+
+
