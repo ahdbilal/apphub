@@ -13,11 +13,45 @@
   - 5
   - 4
   - 1
-- name: Collaborators
+- name: beta_group
   is_public: false
   members:
     android:
-    - ahbilal@microsoft.com
+    - ahdbilal@github.com
+    - abilal@mit.edu
     ios:
     - ahbilal@microsoft.com
+    - ahmedbilal_@hotmail.com
+  releases: 
+  - 5
+- name: alpha_external
+  is_public: false
+  members:
+    android:
+    - 10@ahdbilal.com
+    - 11@ahdbilal.com
+    - 12@ahdbilal.com
+    ios:
+    - 90@ahdbilal.com
+    - 91@ahdbilal.com
+    - 92@ahdbilal.com
   releases: []
+- name: beta_external
+  is_public: false
+  members:
+    android:
+    - 001@ahdbilal.com
+    - 002@ahdbilal.com
+    - 003@ahdbilal.com
+    ios:
+    - 900@ahdbilal.com
+    - 901@ahdbilal.com
+    - 902@ahdbilal.com
+  releases: []
+- name: public
+  is_public: true
+  members:
+    android:
+    ios:
+  releases: 
+  - 4
