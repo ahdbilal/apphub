@@ -69,5 +69,5 @@
     - 'include: dogfood.csv'
     ios:
     - 'include: dogfood.csv'
-  releases:
+  releases: 
   - 5
