@@ -56,12 +56,6 @@
     ios:
     - ahbilal@microsoft.com
   releases: []
-- name: public
-  is_public: true
-  members:
-    android: []
-    ios: []
-  releases: []
 - name: dogfood
   is_public: false
   members:
@@ -69,5 +63,11 @@
     - 'include: dogfood.csv'
     ios:
     - 'include: dogfood.csv'
-  releases: 
+  releases:
   - 5
+- name: public
+  is_public: true
+  members:
+    android: []
+    ios: []
+  releases: []
