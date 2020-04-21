@@ -47,6 +47,7 @@
     - ahbilal@microsoft.com
     - ahmedbilal_@hotmail.com
   releases:
+  - 8
   - 5
 - name: Collaborators
   is_public: false
