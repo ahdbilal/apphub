@@ -22,6 +22,7 @@
     - ahmedbilal_@hotmail.com
     - ahdbilal@gmail.com
   releases:
+  - 7
   - 5
   - 4
 - name: beta_external
@@ -46,6 +47,7 @@
     - ahbilal@microsoft.com
     - ahmedbilal_@hotmail.com
   releases:
+  - 8
   - 5
 - name: Collaborators
   is_public: false
@@ -63,6 +65,7 @@
     ios:
     - 'include: dogfood.csv'
   releases:
+  - 9
   - 5
 - name: public
   is_public: true
